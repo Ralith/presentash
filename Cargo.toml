@@ -1,0 +1,11 @@
+[package]
+name = "presentash"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ash = { version = "0.33", default-features = false }
+
+[dev-dependencies]
+winit = "0.26"
+ash-window = "0.7"
